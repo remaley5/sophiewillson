@@ -34,6 +34,12 @@ nav ul li a {
   align-items: center;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .content {
   width: 80%;
   margin: auto;
