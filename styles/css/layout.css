@@ -7,6 +7,16 @@
   width: 300px;
 }
 
+#skills ul {
+  list-style: none;
+}
+#skills ul img {
+  width: 100px;
+}
+#skills ul .icon p {
+  opacity: 0;
+}
+
 nav ul {
   list-style: none;
 }
@@ -38,11 +48,17 @@ nav ul li a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .content {
   width: 80%;
   margin: auto;
+}
+
+.indent-left {
+  margin-left: 20%;
 }
 
 body {

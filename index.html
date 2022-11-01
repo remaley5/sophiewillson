@@ -50,7 +50,7 @@
 
       </nav> <!-- end #nav-wrap -->
       
-      <div class="row banner content">
+      <div class=" banner content">
          <div class="banner-text">
             <h1 class="responsive-headline">Sophie Willson</h1>
             <span>I'm a looking for a position as a full stack or frontend developer. I have a passion for usability and accessibility.</span>
@@ -69,6 +69,7 @@
    <!-- About Section
    ================================================== -->
       <section id="about" class="content">
+        <h2>About Me</h2>
 
          <div class="flex-row">
 
@@ -84,8 +85,6 @@
             </div>
 
             <div class="row-item two">
-
-               <h2>About Me</h2>
 
                <p>I am a software engineer with great project management skills, attention to detail and passion for deep diving into my work.
                </br>
@@ -293,31 +292,30 @@
       <!-- Resume Section
       ================================================== -->
 
-      <section id="resume">
+      <section id="resume" class="content">
 
          <!-- Education
          ----------------------------------------------- -->
-         <div class="row education">
+         <div class="education resume">
 
-            <div class="three columns header-col">
+            <div class="header-col">
                <h2><span>Education</span></h2>
             </div>
 
-            <div class="nine columns main-col">
+            <div class="indent-left">
 
-               <div class="row item">
+               <div class="">
 
-                  <div class="twelve columns">
-
+                  <div class="item">
                      <h3>App Academy</h3>
                      <p class="info">Full Stack engineering bootcamp<span>&bull;</span> <em class="date">December 2020</em></p>
                   </div>
 
                </div> <!-- item end -->
 
-               <div class="row item">
+               <div class="">
 
-                  <div class="twelve columns">
+                  <div class="item">
 
                      <h3>Rhode Island School of Design</h3>
                      <p class="info">B.A. Degree in Industrial Design <span>&bull;</span><em class="date">May 2018</em></p>
@@ -332,13 +330,13 @@
 
          <!-- Skills
          ----------------------------------------------- -->
-         <div class="row skill">
+         <div id="skills">
 
-            <div class="three columns header-col">
+            <div class="header-col">
                <h2><span>Skills</span></h2>
             </div>
 
-            <div class="nine columns main-col">
+            <div class="indent-left">
 
                <p>
                   Playing with an arduino with <span>C++</span> was my gateway into coding. Next, I took online courses in <span>Javascript</span>, <span>CSS</span> and <span>HTML5</span> to build out basic websites. Since then I have implemented full stack apps with <span>Python</span>, <span>Javascript</span>, <span>React</span>, <span>React/Redux</span> and other react state managers. I have built databases with <span>SQL</span>, <span>Sequelize</span>, <span>PostgreSQL</span>, <span>SQLAlchemy</span> and connected photo uploading to my database with <span>Amazon Web Services</span>. I have primarily built out backends with <span>Flask</span> and <span>Express.js</span> and dabbled in <span>Docker</span> to launch. I am quick and passionate about learning and love to take on new puzzles.
@@ -346,19 +344,19 @@
 
                <div class="bars">
 
-                  <ul class="skills">
-                     <li><img src="https://img.icons8.com/ios/50/000000/react-native.png"/><p>React</p></li>
-                     <li><img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/><p>Redux</p></li>
-                     <li><img src='./images/icons/html.png'/><p>HTML5</p></li>
-                     <li><img src="https://img.icons8.com/color/48/000000/css3.png"/><p>CSS</p></li>
-                     <li><img src="https://img.icons8.com/color/48/000000/python.png"/><p>Python</p></li>
-                     <li><img src='./images/icons/flask.png'/><p>Flask</p></li>
-                     <li><img src="https://img.icons8.com/color/48/000000/javascript.png"/><p>Javascript</p></li>
-                     <li><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/><p>AWS</p></li>
-                     <li><img src="https://img.icons8.com/ios-filled/50/000000/postgreesql.png"/><p>PostgreSQL</p></li>
-                     <li><img src='./images/icons/rhino.png'/><p>Rhino</p></li>
-                     <li><img src="https://img.icons8.com/color/48/000000/solidworks.png"/><p>Solidworks</p></li>
-                     <li><img src="https://img.icons8.com/fluent/48/000000/adobe-creative-cloud.png"/><p>Adobe Creative Suites</p></li>
+                  <ul class="skills flex-wrap">
+                     <li class="icon"><img src="https://img.icons8.com/ios/50/000000/react-native.png"/><p>React</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/><p>Redux</p></li>
+                     <li class="icon"><img src='./images/icons/html.png'/><p>HTML5</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/color/48/000000/css3.png"/><p>CSS</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/color/48/000000/python.png"/><p>Python</p></li>
+                     <li class="icon"><img src='./images/icons/flask.png'/><p>Flask</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/color/48/000000/javascript.png"/><p>Javascript</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/><p>AWS</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/postgreesql.png"/><p>PostgreSQL</p></li>
+                     <li class="icon"><img src='./images/icons/rhino.png'/><p>Rhino</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/color/48/000000/solidworks.png"/><p>Solidworks</p></li>
+                     <li class="icon"><img src="https://img.icons8.com/fluent/48/000000/adobe-creative-cloud.png"/><p>Adobe Creative Suites</p></li>
                   </ul>
 
                </div><!-- end skill-bars -->
@@ -373,15 +371,15 @@
       ================================================== -->
       <section id="contact">
 
-            <div class="row section-head">
+            <div class=" section-head">
 
-               <div class="two columns header-col">
+               <div class="two header-col">
 
                   <h2><span>Get In Touch.</span></h2>
 
                </div>
 
-               <div class="ten columns">
+               <div class="ten">
 
                      <p class="lead">
                         I'm looking for a position that will challenge me and give space for the problem solving that I love. I want coworkers who are passionate about their product and a team I can learn with. While my focus is on accessibility, I am passionate about a broad range of tech and experience. I look forward to hearing from you!
@@ -393,7 +391,7 @@
 
             <div class="row">
 
-               <div class="eight columns">
+               <div class="eight">
 
                   <!-- form -->
                   <!-- <form action="" method="post" id="contactForm" name="contactForm">
@@ -439,7 +437,7 @@
                </div>
 
 
-               <aside class="four columns footer-widgets">
+               <aside class="four footer-widgets">
 
                   <div class="widget widget_contact">
 
@@ -465,7 +463,7 @@
 
       <div class="row">
 
-         <div class="twelve columns">
+         <div class="twelve">
 
             <ul class="social-links">
                <li><a href="https://www.linkedin.com/in/sophie-willson-b607941bb/"><i class="fa fa-linkedin"></i></a></li>
