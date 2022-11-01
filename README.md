@@ -6,7 +6,6 @@
 - [ ] Font 
 - [ ] Colors 
 - [ ] Social icons
-- [ ] 
 
 ## HTML
 - [ ] Content changes
@@ -22,4 +21,4 @@
 - [ ] Projects offline 
 - [ ] Update about me 
 - [ ] Update resume
-
+- [ ] Replace profile picture
