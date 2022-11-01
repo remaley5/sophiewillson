@@ -22,3 +22,4 @@
 - [ ] Update about me 
 - [ ] Update resume
 - [ ] Replace profile picture
+- [ ] Resume Link
