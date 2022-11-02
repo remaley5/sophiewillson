@@ -25,6 +25,14 @@ nav, p {
   letter-spacing: 4px;
 }
 
+button .medium {
+  font-size: 30px;
+}
+
+button .smaller {
+  font-size: 20px;
+}
+
 header {
   background: rgba(22, 20, 21, 0.4431372549) url(../../images/pond-landscape.jpeg) no-repeat top center;
   background-size: cover !important;
@@ -58,6 +66,14 @@ header .social li a:hover {
   background-color: white;
 }
 
+section {
+  width: 100%;
+  margin: 0px;
+}
+
+#about {
+  background-color: #a7a8cb;
+}
 #about .profile-pic {
   width: 300px;
   overflow: hidden;
@@ -108,7 +124,7 @@ button, .skip-link {
 }
 
 button {
-  font-size: 20px;
+  width: 100%;
 }
 
 .skip-link {
