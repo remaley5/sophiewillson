@@ -167,6 +167,15 @@ nav#main-nav ul li a.selected {
     width: 80% !important;
   }
 }
+@media screen and (max-width: 800px) {
+  nav#main-nav ul {
+    display: none;
+  }
+  nav#main-nav .mobile-btn {
+    display: block;
+    position: fixed;
+  }
+}
 ul, ol {
   list-style: none;
   margin-block-start: 0px;
@@ -206,7 +215,17 @@ button {
 }
 
 .mobile-btn {
-  display: none !important;
+  display: none;
+  margin-left: 80%;
+  margin-right: 40px;
+  width: 100px;
+  border-radius: 5px !important;
+  z-index: 2;
+}
+.mobile-btn div {
+  height: 10px;
+  background-color: black;
+  margin: 15px 5px;
 }
 
 /*# sourceMappingURL=index.css.map */
