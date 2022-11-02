@@ -23,6 +23,7 @@ nav, p {
 .skip-link {
   position: absolute;
   color: #0e2359;
+  display: none;
 }
 
 hr {
