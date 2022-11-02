@@ -169,11 +169,7 @@ nav#main-nav ul li a.selected {
 }
 @media screen and (max-width: 800px) {
   nav#main-nav ul {
-    display: none;
-  }
-  nav#main-nav .mobile-btn {
-    display: block;
-    position: fixed;
+    gap: 0px;
   }
 }
 ul, ol {
