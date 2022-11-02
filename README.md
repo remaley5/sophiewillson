@@ -6,6 +6,7 @@
 - [x] Font 
 - [ ] Colors 
 - [ ] Social icons
+- [ ] Resume button
 
 ## HTML
 - [ ] Content changes
