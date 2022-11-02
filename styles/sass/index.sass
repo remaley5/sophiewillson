@@ -1,6 +1,16 @@
 @use 'base'
 @use 'text'
 
+@use 'header'
+@use 'section'
+@use 'nav'
+
+ul, ol
+    list-style: none
+
+hr 
+    display: none
+
 .skip-link 
     position: absolute
     color: base.$dark-blue
@@ -19,8 +29,6 @@
 .skip-link:focus
     opacity: 1
 
-hr 
-    display: none
-    
 .mobile-btn 
     display: none!important
+

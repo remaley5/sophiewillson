@@ -1,9 +1,9 @@
 # Update process
 
 ## CSS
-- [ ] body layout 
-- [ ] Sizing elements
-- [ ] Font 
+- [x] Body Layout
+- [x] Size Images
+- [x] Font 
 - [ ] Colors 
 - [ ] Social icons
 
