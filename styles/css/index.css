@@ -9,6 +9,20 @@ h1 {
 
 h2 {
   font-size: 70px;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#about h2 {
+  border-bottom: 10px solid rgb(186, 188, 220);
+}
+
+#resume h2, #skills h2 {
+  border-bottom: 10px solid #f8b68a;
+  color: #816a5d;
 }
 
 p {
@@ -72,7 +86,7 @@ section {
 }
 
 #about {
-  background-color: #a7a8cb;
+  background-color: rgba(195, 197, 237, 0.6);
 }
 #about .profile-pic {
   width: 300px;
@@ -88,6 +102,14 @@ section {
 }
 #skills ul .icon p {
   opacity: 0;
+}
+
+#contact {
+  background-color: #0e2359;
+  color: white;
+}
+#contact .contact-info {
+  gap: 10% !important;
 }
 
 button.download {
