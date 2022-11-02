@@ -5,6 +5,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 100px;
+  margin-top: 100px;
 }
 
 h2 {
@@ -71,6 +72,7 @@ header .social li a {
   background-color: #0e2359;
   padding: 9px 15px;
   border-radius: 50%;
+  border: 3px solid #0e2359;
   height: 60px;
   width: 60px;
   box-shadow: 0 0 6px gray;
@@ -78,6 +80,16 @@ header .social li a {
 header .social li a:hover {
   color: #0e2359;
   background-color: white;
+  border: 3px solid #0e2359;
+}
+header .blurb {
+  background-color: rgba(255, 255, 255, 0.768627451);
+  width: 650px;
+  margin: auto;
+  padding: 30px;
+}
+header .blurb .blurb p {
+  text-wrap: wrap;
 }
 
 section {
@@ -133,8 +145,32 @@ nav#main-nav ul li a.selected {
   border-bottom: 5px solid #313131;
 }
 
+@media screen and (max-width: 1170px) {
+  #about .flex-row {
+    flex-direction: column !important;
+  }
+  #about .profile-pic {
+    overflow: hidden;
+    border-radius: 50px;
+    height: 500px;
+    width: 100%;
+  }
+  #about .profile-pic img {
+    width: 100%;
+    top: -50%;
+    position: relative;
+  }
+  .indent-left {
+    margin-left: 0px !important;
+  }
+  .blurb {
+    width: 80% !important;
+  }
+}
 ul, ol {
   list-style: none;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
 }
 
 hr {

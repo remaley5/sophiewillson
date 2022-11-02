@@ -4,12 +4,16 @@
 - [x] Body Layout
 - [x] Size Images
 - [x] Font 
-- [ ] Colors 
-- [ ] Social icons
-- [ ] Resume button
+- [x] Colors 
+- [x] Social icons
+- [x] Resume button
+- [ ] Blurb
+- [ ] Sticky Nav
+- [ ] Smooth scroll
+- [ ] Media Queries
 
 ## HTML
-- [ ] Content changes
+- [ ] Content
 - [ ] Dialog 
 - [ ] Alts 
 - [ ] confirm roles
@@ -22,5 +26,6 @@
 - [ ] Projects offline 
 - [ ] Update about me 
 - [ ] Update resume
-- [ ] Replace profile picture
+- [x] Replace profile picture
 - [ ] Resume Link
+- [ ] Skills
