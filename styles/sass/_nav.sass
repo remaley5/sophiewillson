@@ -2,14 +2,48 @@
 
 nav#main-nav 
     ul li 
-        font-size: base.$med-font
         text-transform: uppercase
         a 
             text-decoration: none
-            color: base.$dark-green
+            color: base.$dark-blue
             padding-bottom: 10px
+    // -----** Desktop **-----
+    ul.desktop li    
+        font-size: base.$med-font
         a:focus, a:hover
             color: base.$black
             border-bottom: 5px solid base.$black
         a.selected
             border-bottom: 5px solid base.$black
+
+    // -----** MOBILE **-----
+    .mobile-nav
+        padding: 0px !important
+        width: fit-content
+        right: 20px !important
+        position: absolute
+        background-color: white
+        border: 5px solid base.$dark-green
+        box-shadow: base.$box-shadow
+        border-radius: 5px
+        margin: 0px 30px
+
+        ul 
+            width: 100%
+            gap: 0px
+            margin: 30px 0px
+            text-align: end
+            li
+                font-size: base.$large-font
+                width: 100%
+                padding: 10px 0px
+                margin: 10px 0px
+                border-bottom: 7px solid white
+                a
+                    padding: 0px 30px
+                //text-align: start
+            li:has(a:hover)
+                border-bottom: 7px solid base.$dark-green
+            a:focus, a:hover
+                //color: white
+                   // background-color: base.$dark-green
