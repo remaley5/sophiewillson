@@ -27,16 +27,19 @@ hr
 button, .skip-link
     color: base.$dark-blue
     background-color: base.$white
-    padding: 10px
-    text-transform: lowercase
+    padding: 20px 40px
     font-family: base.$tahoma
-    margin: 20px
-    border-radius: 20px
     box-sizing: border-box
-    box-shadow: 0 0 6px base.$grey
+    margin: 20px
 
-button
-    width: 100%
+button:hover, nav#main-nav.open .mobile-btn
+    color: base.$white
+    background-color: base.$dark-blue
+
+button.download, .skip-link
+    text-transform: lowercase
+    border-radius: 5px
+    box-shadow: 0 0 6px base.$grey
 
 .skip-link 
     border: 4px solid base.$darker-orange
@@ -59,8 +62,9 @@ button
         //display: absolute
         z-index: 2
         margin-right: 30px
-        width: 100px
-        //float: right
+        padding: 20px 30px
+        width: fit-content
+        //float: right;
         border-radius: 5px!important
         z-index: 2
         div

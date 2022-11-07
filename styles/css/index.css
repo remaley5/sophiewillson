@@ -40,11 +40,11 @@ nav, p {
   letter-spacing: 4px;
 }
 
-button .medium {
+.medium {
   font-size: 30px;
 }
 
-button .smaller {
+.smaller {
   font-size: 20px;
 }
 
@@ -244,17 +244,21 @@ hr {
 button, .skip-link {
   color: #0e2359;
   background-color: #fff;
-  padding: 10px;
-  text-transform: lowercase;
+  padding: 20px 40px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 20px;
-  border-radius: 20px;
   box-sizing: border-box;
-  box-shadow: 0 0 6px #838c95;
+  margin: 20px;
 }
 
-button {
-  width: 100%;
+button:hover, nav#main-nav.open .mobile-btn {
+  color: #fff;
+  background-color: #0e2359;
+}
+
+button.download, .skip-link {
+  text-transform: lowercase;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #838c95;
 }
 
 .skip-link {
@@ -278,7 +282,8 @@ button {
   display: none;
   z-index: 2;
   margin-right: 30px;
-  width: 100px;
+  padding: 20px 30px;
+  width: fit-content;
   border-radius: 5px !important;
   z-index: 2;
 }
