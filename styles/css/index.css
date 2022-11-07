@@ -152,34 +152,33 @@ nav#main-nav ul.desktop li a.selected {
 }
 nav#main-nav .mobile-nav {
   padding: 0px !important;
-  width: fit-content;
-  right: 20px !important;
-  position: absolute;
+  position: relative;
   background-color: white;
-  border: 5px solid rgba(42, 129, 92, 0.9215686275);
-  box-shadow: 0 0 6px gray;
-  border-radius: 5px;
-  margin: 0px 30px;
+  margin: 0px;
 }
 nav#main-nav .mobile-nav ul {
   width: 100%;
   gap: 0px;
-  margin: 30px 0px;
+  margin: 50px 20px 0px 0px;
   text-align: end;
 }
 nav#main-nav .mobile-nav ul li {
   font-size: 50px;
   width: 100%;
   padding: 10px 0px;
-  margin: 10px 0px;
-  border-bottom: 7px solid white;
+  margin: 0px;
+  border-bottom: 1.5px dashed #838c95;
 }
 nav#main-nav .mobile-nav ul li a {
   padding: 0px 30px;
 }
 nav#main-nav .mobile-nav ul li:has(a:hover) {
-  border-bottom: 7px solid rgba(42, 129, 92, 0.9215686275);
+  background-color: #0e2359;
 }
+nav#main-nav .mobile-nav ul a:focus, nav#main-nav .mobile-nav ul a:hover {
+  color: white;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -270,15 +269,20 @@ button {
   opacity: 1;
 }
 
-.mobile-btn {
+.mobile-btn-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.mobile-btn-wrap .mobile-btn {
   display: none;
-  margin-left: 80%;
-  margin-right: 40px;
+  z-index: 2;
+  margin-right: 30px;
   width: 100px;
   border-radius: 5px !important;
   z-index: 2;
 }
-.mobile-btn div {
+.mobile-btn-wrap .mobile-btn div {
   height: 10px;
   background-color: black;
   margin: 15px 5px;

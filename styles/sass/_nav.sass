@@ -19,31 +19,33 @@ nav#main-nav
     // -----** MOBILE **-----
     .mobile-nav
         padding: 0px !important
-        width: fit-content
-        right: 20px !important
-        position: absolute
+        //width: 100%
+        //right: 20px
+        //right: 20px !important
+        position: relative
         background-color: white
-        border: 5px solid base.$dark-green
-        box-shadow: base.$box-shadow
-        border-radius: 5px
-        margin: 0px 30px
+        //border: 1px dotted base.$dark-green
+        //box-shadow: base.$box-shadow
+        // border-radius: 5px
+        margin: 0px
 
         ul 
             width: 100%
             gap: 0px
-            margin: 30px 0px
+            margin: 50px 20px 0px 0px
             text-align: end
             li
                 font-size: base.$large-font
                 width: 100%
                 padding: 10px 0px
-                margin: 10px 0px
-                border-bottom: 7px solid white
+                margin: 0px
+                border-bottom: 1.5px dashed base.$grey
                 a
                     padding: 0px 30px
                 //text-align: start
             li:has(a:hover)
-                border-bottom: 7px solid base.$dark-green
+                //border-bottom: 7px solid base.$dark-green
+                background-color: base.$dark-blue
             a:focus, a:hover
-                //color: white
-                   // background-color: base.$dark-green
+                color: white
+                //background-color: base.$dark-green

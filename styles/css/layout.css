@@ -31,8 +31,14 @@
   margin-left: 20%;
 }
 
+html {
+  right: -10px !important;
+}
+
 body {
-  margin: 0px;
+  margin: 0px 0px 0px -20px !important;
+  right: -10px !important;
+  right: 0px;
 }
 
 header {
