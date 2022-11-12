@@ -250,7 +250,7 @@ button, .skip-link {
   margin: 20px;
 }
 
-button:hover {
+button:hover, nav#main-nav.open .mobile-btn {
   color: #fff;
   background-color: #0e2359;
 }
