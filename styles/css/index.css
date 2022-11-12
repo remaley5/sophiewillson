@@ -26,6 +26,13 @@ h3 {
   color: #816a5d;
 }
 
+#contact {
+  color: white;
+}
+#contact a {
+  color: white;
+}
+
 p {
   font-size: 20px;
 }
@@ -122,7 +129,6 @@ section {
 
 #contact {
   background-color: #0e2359;
-  color: white;
 }
 #contact .contact-info {
   gap: 10% !important;
