@@ -1,3 +1,5 @@
+@use 'base'
+
 .mobile-nav
     display: none
 
@@ -12,7 +14,7 @@
             width: 100%
             img 
                 width: 100%
-                top: -50%
+                bottom: 60%
                 position: relative
     .indent-left
         margin-left: 0px!important
@@ -27,7 +29,15 @@
     nav#main-nav.open .mobile-nav
         display: block
 
-@media screen and (max-width: 450px)
+@media screen and (max-width: 620px)
     .mobile-nav
         margin: auto
         right: 0px
+
+    h1
+        font-size: 70px
+
+
+    #about
+        .profile-pic
+            height: fit-content
