@@ -141,12 +141,12 @@ section {
   margin-bottom: 30px;
   text-decoration: none;
   border: 2px solid #0e2359;
-  padding: 5px;
   border-bottom: 2px solid white;
+  padding: 5px;
   padding-bottom: 2px;
 }
 #contact ul a:hover, #contact ul a:focus {
-  border: 2px solid white;
+  border: 2px solid #fff;
 }
 
 a.download {
@@ -176,12 +176,22 @@ nav#main-nav .mobile-nav {
   position: relative;
   background-color: white;
   margin: 0px;
+  overflow: hidden;
+  height: 0px;
+  transition: height 1s;
+  -moz-transition: height 1s;
+  /* Firefox 4 */
+  -webkit-transition: height 1s;
+  /* Safari and Chrome */
+  -o-transition: height 1s;
 }
 nav#main-nav .mobile-nav ul {
   width: 100%;
   gap: 0px;
   margin: 50px 20px 0px 0px;
   text-align: end;
+  bottom: 0px;
+  position: absolute;
 }
 nav#main-nav .mobile-nav ul li {
   font-size: 50px;
@@ -198,10 +208,6 @@ nav#main-nav .mobile-nav ul li:has(a:hover) {
 }
 nav#main-nav .mobile-nav ul a:focus, nav#main-nav .mobile-nav ul a:hover {
   color: white;
-}
-
-.mobile-nav {
-  display: none;
 }
 
 @media screen and (max-width: 1170px) {
@@ -233,6 +239,7 @@ nav#main-nav .mobile-nav ul a:focus, nav#main-nav .mobile-nav ul a:hover {
   }
   nav#main-nav.open .mobile-nav {
     display: block;
+    height: 425px !important;
   }
 }
 @media screen and (max-width: 620px) {
@@ -266,6 +273,14 @@ ul, ol {
 
 hr {
   display: none;
+}
+
+button:hover, a:hover {
+  transition: all 0.5s;
+}
+
+button, a {
+  transition: all 0.5s;
 }
 
 button, a.download, .skip-link {
