@@ -33,11 +33,11 @@ h3 {
   color: white;
 }
 
-p {
+p, #contact a {
   font-size: 20px;
 }
 
-nav, p {
+nav, p, #contact a {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
 }
@@ -132,6 +132,21 @@ section {
 }
 #contact .contact-info {
   gap: 10% !important;
+}
+#contact ul {
+  gap: 30px;
+  margin-bottom: 20px;
+}
+#contact ul a {
+  margin-bottom: 30px;
+  text-decoration: none;
+  border: 2px solid #0e2359;
+  padding: 5px;
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+#contact ul a:hover, #contact ul a:focus {
+  border: 2px solid white;
 }
 
 button.download {
