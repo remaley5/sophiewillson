@@ -149,7 +149,7 @@ section {
   border: 2px solid white;
 }
 
-button.download {
+a.download {
   padding: 20px;
 }
 
@@ -268,7 +268,7 @@ hr {
   display: none;
 }
 
-button, .skip-link {
+button, a.download, .skip-link {
   color: #0e2359;
   background-color: #fff;
   padding: 20px 40px;
@@ -277,15 +277,22 @@ button, .skip-link {
   margin: 20px;
 }
 
-button:hover, nav#main-nav.open .mobile-btn {
+button:hover, a.download:hover, nav#main-nav.open .mobile-btn {
   color: #fff;
   background-color: #0e2359;
 }
 
-button.download, .skip-link {
+a.download, .skip-link {
   text-transform: lowercase;
   border-radius: 5px;
   box-shadow: 0 0 6px #838c95;
+}
+
+a.download {
+  border-style: outset;
+  border-color: #0e2359;
+  display: inline-block;
+  text-align: center;
 }
 
 .skip-link {
