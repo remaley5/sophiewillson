@@ -239,7 +239,7 @@ nav#main-nav .mobile-nav ul a:focus, nav#main-nav .mobile-nav ul a:hover {
   }
   nav#main-nav.open .mobile-nav {
     display: block;
-    height: 425px !important;
+    height: 250px !important;
   }
 }
 @media screen and (max-width: 620px) {
@@ -340,6 +340,10 @@ a.download {
   height: 10px;
   background-color: black;
   margin: 15px 5px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=index.css.map */
